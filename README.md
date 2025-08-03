@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React and Tailwind CSS, showca
 
 ## 🚀 Live Demo
 
-[View Portfolio](http://localhost:5173/syed-affan/pedrotech-portfolio)
+[View Portfolio](https://github.com/Affan166114/Syed-Affan-Portfolio.git)
 
 ## ✨ Features
 

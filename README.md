@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React and Tailwind CSS, showca
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://github.com/Affan166114/Syed-Affan-Portfolio.git)
+[View Portfolio](https://syed-affan-portfolio-igys090hl-syed-affans-projects-e22cf900.vercel.app)
 
 ## ✨ Features
 

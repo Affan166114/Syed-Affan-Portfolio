@@ -18,7 +18,16 @@ const LoadingScreen = ({ onComplete }) => {
       }
     }, 100)
 
-    return () => clearInterval(interval)
+    // Fallback timeout to prevent infinite loading
+    const timeout = setTimeout(() => {
+      clearInterval(interval)
+      onComplete()
+    }, 10000) // 10 second timeout
+
+    return () => {
+      clearInterval(interval)
+      clearTimeout(timeout)
+    }
   }, [onComplete])
 
   return (
